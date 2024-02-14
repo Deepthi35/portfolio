@@ -1939,7 +1939,8 @@ Breadcrumb
 =============================*/
 .banner {
   position: relative;
-  padding: 140px 0 0; }
+  padding: 140px 0 0;
+  margin-left: 40px; }
   @media (max-width: 1199.98px) {
     .banner {
       padding: 120px 0 0; } }
@@ -2837,17 +2838,7 @@ Breadcrumb
       padding-left: 30px;
       color: #191B1E;
       font-weight: 500; }
-      .services__details__list li::before {
-        content: "";
-        position: absolute;
-        left: 5px;
-        top: 11px;
-        width: 4px;
-        height: 4px;
-        background: #191B1E;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%; }
+      
       .services__details__list li + li {
         margin-top: 6px; }
   .services__details__img {
